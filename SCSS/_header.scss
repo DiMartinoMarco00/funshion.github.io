@@ -1,0 +1,65 @@
+.header
+{
+    background-color: #f5f6f5;
+    margin-bottom: 80px;
+}
+
+.navbar 
+{
+    padding: 0 35px !important;
+}
+
+.navbar-nav
+{
+    margin-left: -30px !important;
+}
+
+.right-menu
+{
+    li 
+    {
+        display: inline-block;
+        margin-top: 30px !important;
+
+        .fab
+        {
+            font-size: 18px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+.nav-item
+{
+    .nav-link
+    {
+        font-size: 15px;
+    }
+}
+
+.navbar-brand
+{
+    position: absolute;
+    left: 50%;
+    top: 25px;
+    transform: translate(-50%);
+
+    img 
+    {
+        width: 160px;
+    }
+}
+
+.navbar-toggler
+{
+    border: none !important;
+    outline: none !important;
+    margin-top: 25px;
+
+    .fas
+    {
+        font-size: 30px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,175 @@
+@media only screen and (max-width: 767px)
+{
+    .navbar 
+    {
+        padding: 0 5px !important;
+    }
+
+    .navbar-nav 
+    {
+        margin-left: 5px !important;
+        margin-top: 10px !important;
+    }
+
+    .navbar-brand 
+    {
+       left: 70%;
+       top: 10px;
+    }
+
+    .navbar-toggler
+    {
+        margin-top: 15px;
+
+        .fas
+        {
+            font-size: 25px !important;
+        }
+    }
+
+    .banner-img 
+    {
+        margin: 40px auto;
+        width: 80%;
+    }
+
+    .banner-title
+    {
+        top: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        h1 
+        {
+            font-size: 15px;
+            line-height: 20px;
+            padding: 5px;
+        }
+    }
+
+    .title-style h1 
+    {
+        padding: 50px 0;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .fashion-box p 
+    {
+        padding: 0 5%;
+        font-size: 15px;
+    }
+
+    .offer
+    {
+        max-height: 1000px;
+
+        img 
+        {
+            margin: 0 auto;
+            margin-top: 20px !important;
+            margin-bottom: 0 !important;
+            width: 100%;
+        }
+    }
+
+    .subscribe 
+    {
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    .fashion-blog h5 
+    {
+        font-size: 16px;
+    }
+
+    .blog-img 
+    {
+        width: 100%;
+        height: 250px;
+    }
+
+    .copyright
+    {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .footer-icons
+    {
+        margin-top: 15px !important;
+        margin-bottom: 10px !important;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 400px)
+{
+    .offer img 
+    {
+        width: 300px;
+        height: 400px;
+    }
+
+    .blog-img 
+    {
+        height: 300px;
+        width: 300px;
+    }
+
+    .payment
+    {
+        text-align: center;
+    }
+
+    .app-download
+    {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+    .banner-title h1
+    {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 991px)
+{
+    .footer h5::before
+    {
+        content: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) 
+{
+    .banner-title h1 
+    {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 992px)
+{
+    .footer h5 
+    {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 992px) 
+{
+   .navbar-brand
+   {
+       left: 55%;
+   } 
+
+    .form-control
+    {
+        width: 150px !important;
+    }
+}
